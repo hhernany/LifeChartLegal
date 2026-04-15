@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LifeChart — Política de Privacidade</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #FAFAF8;
+            --surface: #FFFFFF;
+            --text: #1A1A1A;
+            --text-secondary: #6B6B6B;
+            --accent: #2D5A27;
+            --accent-light: #E8F0E7;
+            --border: #E8E8E4;
+            --radius: 12px;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #111110;
+                --surface: #1A1A19;
+                --text: #E8E8E4;
+                --text-secondary: #9A9A96;
+                --accent: #7CB876;
+                --accent-light: #1E2A1D;
+                --border: #2A2A28;
+            }
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 60px 24px 80px;
+        }
+
+        .badge {
+            display: inline-block;
+            font-size: 0.75rem;
+            font-weight: 600;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: var(--accent);
+            background: var(--accent-light);
+            padding: 6px 14px;
+            border-radius: 100px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-family: 'DM Serif Display', Georgia, serif;
+            font-size: 2.4rem;
+            font-weight: 400;
+            line-height: 1.2;
+            margin-bottom: 12px;
+            letter-spacing: -0.02em;
+        }
+
+        .subtitle {
+            color: var(--text-secondary);
+            font-size: 1rem;
+            margin-bottom: 48px;
+        }
+
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 32px;
+            margin-bottom: 24px;
+        }
+
+        .card h2 {
+            font-family: 'DM Serif Display', Georgia, serif;
+            font-size: 1.35rem;
+            font-weight: 400;
+            margin-bottom: 16px;
+            letter-spacing: -0.01em;
+        }
+
+        .card p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            margin-bottom: 12px;
+        }
+
+        .card p:last-child { margin-bottom: 0; }
+
+        .card ul {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            padding-left: 20px;
+            margin-bottom: 12px;
+        }
+
+        .card ul:last-child { margin-bottom: 0; }
+
+        .card li { margin-bottom: 6px; }
+
+        .highlight-box {
+            background: var(--accent-light);
+            border-left: 3px solid var(--accent);
+            border-radius: 0 8px 8px 0;
+            padding: 16px 20px;
+            margin: 16px 0;
+        }
+
+        .highlight-box p {
+            color: var(--text);
+            font-weight: 500;
+            font-size: 0.9rem;
+        }
+
+        .footer-note {
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            margin-top: 48px;
+            padding-top: 24px;
+            border-top: 1px solid var(--border);
+        }
+
+        @media (max-width: 600px) {
+            .container { padding: 40px 16px 60px; }
+            h1 { font-size: 1.8rem; }
+            .card { padding: 24px 20px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <span class="badge">LifeChart</span>
+        <h1>Política de Privacidade</h1>
+        <p class="subtitle">Última atualização: 10 de abril de 2026</p>
+
+        <div class="card">
+            <h2>Resumo</h2>
+            <div class="highlight-box">
+                <p>O LifeChart não coleta, armazena, transmite ou compartilha nenhum dado pessoal do usuário. Todos os dados permanecem exclusivamente no seu dispositivo e, opcionalmente, na sua conta pessoal do iCloud.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>1. Dados coletados</h2>
+            <p>O LifeChart <strong>não coleta nenhum dado pessoal</strong>. O aplicativo funciona inteiramente offline e não requer login, cadastro, conta de usuário ou qualquer forma de identificação.</p>
+            <p>Nenhuma informação é enviada a servidores externos, APIs de terceiros, serviços de analytics, ferramentas de rastreamento ou redes de publicidade.</p>
+        </div>
+
+        <div class="card">
+            <h2>2. Armazenamento de dados</h2>
+            <p>Todos os dados criados por você no LifeChart — como hábitos, checklists, treinos, lembretes e acompanhamentos — são armazenados localmente no seu dispositivo utilizando o framework nativo SwiftData da Apple.</p>
+            <p>Não temos acesso a nenhum desses dados. Eles pertencem exclusivamente a você.</p>
+        </div>
+
+        <div class="card">
+            <h2>3. Sincronização via iCloud</h2>
+            <p>Se você optar por utilizar a sincronização, seus dados serão sincronizados entre seus dispositivos Apple através do iCloud (CloudKit), um serviço fornecido e gerenciado pela Apple Inc.</p>
+            <p>Neste caso:</p>
+            <ul>
+                <li>Os dados são transmitidos diretamente do seu dispositivo para os servidores do iCloud da Apple, sem passar por nenhum servidor nosso.</li>
+                <li>A criptografia e proteção dos dados em trânsito e em repouso são de responsabilidade da Apple.</li>
+                <li>O desenvolvedor do LifeChart <strong>não tem acesso</strong> aos dados armazenados no seu iCloud.</li>
+            </ul>
+            <p>Para saber mais sobre como a Apple trata seus dados, consulte a <a href="https://www.apple.com/legal/privacy/" style="color: var(--accent);">Política de Privacidade da Apple</a>.</p>
+        </div>
+
+        <div class="card">
+            <h2>4. Assinaturas e pagamentos</h2>
+            <p>O LifeChart oferece planos de assinatura processados inteiramente pelo sistema de compras nativo da Apple (StoreKit / App Store). Nenhum dado financeiro — como número de cartão de crédito, dados bancários ou informações de cobrança — é coletado, processado ou armazenado pelo LifeChart.</p>
+            <p>Toda a gestão de pagamentos, renovações e cancelamentos é feita pela Apple. Consulte os <a href="https://www.apple.com/legal/internet-services/itunes/" style="color: var(--accent);">Termos de Serviço da Apple Media</a> para mais informações.</p>
+        </div>
+
+        <div class="card">
+            <h2>5. Dados de crianças</h2>
+            <p>O LifeChart não coleta dados de nenhum usuário, incluindo menores de idade. Como nenhuma informação pessoal é coletada ou transmitida, o aplicativo está em conformidade com a COPPA (Children's Online Privacy Protection Act) e com regulamentações equivalentes.</p>
+        </div>
+
+        <div class="card">
+            <h2>6. Serviços de terceiros</h2>
+            <p>O LifeChart não integra nenhum serviço de terceiros que colete dados do usuário. Não utilizamos:</p>
+            <ul>
+                <li>Ferramentas de analytics (Google Analytics, Firebase, Mixpanel, etc.)</li>
+                <li>Serviços de rastreamento de erros (Crashlytics, Sentry, etc.)</li>
+                <li>Redes de publicidade</li>
+                <li>SDKs de redes sociais</li>
+            </ul>
+            <p>A única integração externa é com o iCloud da Apple, conforme descrito na seção 3.</p>
+        </div>
+
+        <div class="card">
+            <h2>7. Seus direitos</h2>
+            <p>Como seus dados ficam armazenados localmente no seu dispositivo e na sua conta pessoal do iCloud, você tem controle total sobre eles. Você pode:</p>
+            <ul>
+                <li><strong>Visualizar</strong> todos os seus dados diretamente no aplicativo.</li>
+                <li><strong>Editar ou excluir</strong> qualquer dado a qualquer momento dentro do app.</li>
+                <li><strong>Apagar todos os dados do iCloud</strong> pela seção de Ajustes do aplicativo.</li>
+                <li><strong>Desinstalar o aplicativo</strong> para remover todos os dados locais.</li>
+            </ul>
+            <p>Não é necessário solicitar exclusão de dados ao desenvolvedor, pois nenhum dado seu está em nossa posse.</p>
+        </div>
+
+        <div class="card">
+            <h2>8. Alterações nesta política</h2>
+            <p>Caso esta Política de Privacidade seja atualizada, a nova versão será publicada nesta mesma página com a data de atualização revisada. Recomendamos que você consulte esta página periodicamente.</p>
+            <p>Se houver mudanças significativas na forma como tratamos dados — por exemplo, se passarmos a coletar algum tipo de informação — notificaremos os usuários através do próprio aplicativo antes que a alteração entre em vigor.</p>
+        </div>
+
+        <div class="card">
+            <h2>9. Contato</h2>
+            <p>Se você tiver dúvidas sobre esta Política de Privacidade, entre em contato:</p>
+            <p><strong>E-mail:</strong> <a href="mailto:lifechart.support@gmail.com" style="color: var(--accent);">lifechart.support@gmail.com</a></p>
+        </div>
+
+        <p class="footer-note">LifeChart &copy; 2026. Todos os direitos reservados.</p>
+    </div>
+</body>
+</html>
